@@ -10,21 +10,26 @@
     "build": "cd client && npm run build",
     "install-all": "npm install && cd client && npm install"
   },
-  "keywords": ["coding", "collaboration", "live-coding"],
+  "keywords": [
+    "coding",
+    "collaboration",
+    "live-coding"
+  ],
   "author": "CodeLabs Team",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "socket.io": "^4.6.1",
-    "cors": "^2.8.5",
     "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.0.3",
-    "dotenv": "^16.0.3",
+    "react-scripts": "^5.0.1",
+    "socket.io": "^4.6.1",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22",
-    "concurrently": "^8.0.1"
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
   }
 }
